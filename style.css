@@ -237,7 +237,7 @@
   
   @media only screen and (max-width: 1000px) {
     section {
-      height: 80vh;
+      height: auto;
       padding: 10rem 0;
     }
     /* .titleBox, .headingBox {
@@ -254,7 +254,6 @@
       margin: 0 5rem;
     }
     section {
-      height: 80vh;
       padding: 10rem 0;
     }
   
@@ -322,7 +321,7 @@
       color: var(--light-primary-color);
       text-shadow: 0.2px solid black;
     }
-  
+    
     .socialMediaName {
       display: none;
     }
@@ -330,6 +329,10 @@
       display: flex;
       flex-direction: column;
     }
+    .aboutLeftSideContent {
+      display: flex;
+      justify-content: center;
+  }
     .aboutLeftSideContent img {
       height: 35rem;
       width: 30rem;
@@ -345,6 +348,13 @@
   }
   
   @media only screen and (max-width: 390px) {
+    .title {
+      font-size: 4rem;
+  }
+  .subtitle {
+    /* font-family: SubTitleFont; */
+    font-size: 1.5rem;
+}
     .containerOfSkill {
       display: flex;
       flex-direction: column;
