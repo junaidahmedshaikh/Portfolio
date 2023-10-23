@@ -1,0 +1,53 @@
+
+
+.prjectsSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projectsContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardFrame{
+    background-color: var(--box-color);
+    overflow: hidden;
+    /* border: 2px solid; */
+    padding-top: 2rem;
+    padding-left: 5rem;
+    border-radius: 1rem;
+    max-width: 65vh;
+    max-height: 50vh;
+    margin: 1rem ;
+    text-decoration: none;
+}
+.cardBox{
+    transition: all .4s;
+}
+.cardBox:hover{
+    scale: 1.05;
+    /* transition: all .4s; */
+}
+.cardHeader span{
+    display: block;
+    font-family: SubTitleFont;
+    font-weight: 600;
+}
+.cardTitle{
+ font-size: 2.5rem;
+ color: var(--primary-color);
+}
+.cardSubtitle{
+font-size: 1.4rem;
+color: var(--light-primary-color);
+}
+.CardImage img{
+    margin-top: 2rem;
+    height: 35rem;
+}
+
+.projectContent{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,154 @@
+
+
+
+
+.myImageSection{
+    /* border: 2px solid; */
+    /* height: 10rem; */
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.aboutLeftSideContent {
+    display: flex;
+    justify-content: end;
+}
+.aboutLeftSideContent img{
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10rem 10rem 0 0;
+    border-bottom: 2px solid var(--font-color);
+}
+
+.aboutContent{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.aboutRightSideContent{
+    /* border: 2px solid; */
+    padding: 0 3rem;
+    display: flex;
+    justify-content: center;
+}
+.aboutInformation h2{
+    font-size: 3rem;
+    font-family: TitleFont;
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+.aboutInformation p{
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+    /* font-weight: 600; */
+    font-family: ParaFont;
+    color: var(--light-primary-color);
+}
+.buttonContainer{
+    margin: 4rem 0;
+    display: block;
+}
+.readCVBtn{
+  
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: sans-serif;
+    /* backdrop-filter: blur(10px); */
+    /* border: 1px solid; */
+    border-radius: 2rem;
+    background-color: var(--primary-color);
+    color: var(--box-color);
+}
+
+
+
+.skillContent{
+    /* border: 2px solid; */
+    padding: 3rem 1rem;
+    background-color: var(--box-color);
+    border-radius: 2rem;
+}
+.containerOfSkill{
+    /* display: grid;
+
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    
+}
+.skillList{
+    flex: 1 1;
+    /* flex-wrap: wrap; */
+    padding: 2rem;
+}
+/* List Of Skill */
+.skillItem{
+    background-color: transparent;
+    /* backdrop-filter: blur(10px); */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 3rem 0;
+}
+.skillIcon{
+    width: 10%;
+}
+.skillIcon i{
+    font-size: 5rem;
+}
+.skillDetail{
+    width: 85%;
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    /* flex-direction: column; */
+}
+
+.skillMeta{
+    display: flex;
+    justify-content: space-between;
+}
+.skillName,.SkillPercentage{
+    font-size: 2rem;
+    font-family: SubTitleFont;
+}
+
+.skillBar{
+    width: 100%;
+    height: 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: block;
+}
+.progressPercentage{
+    border-radius: 2rem;
+    display: block;
+
+    height: 100%;
+    /* background-color: linear-gradient(90deg, rgba(2,90,78,1) 0%, rgba(90,122,116,1) 100%); */
+    background: rgb(2,90,78);
+background: linear-gradient(90deg, rgba(2,90,78,1) 0%, rgba(90,122,116,1) 100%);
+}
+
+/* progress status  */
+
+.progress40{
+    width: 40%;
+}
+.progress50{
+    width: 50%;
+}
+.progress60{
+    width: 60%;
+}
+.progress70{
+    width: 70%;
+}
+.progress80{
+    width: 80%;
+}
+.progress90{
+    width: 90%;
+}
