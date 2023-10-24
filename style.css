@@ -29,7 +29,7 @@
   --main-heading-font-color: #025a4e;
 }
 body {
-  background-image: url("https://res.cloudinary.com/difvkvxuy/image/upload/v1697626469/Latest%20Portfolio%20Images/Group_19_ue2lwy.svg");
+  background-image: url("https://res.cloudinary.com/difvkvxuy/image/upload/v1698162290/Latest%20Portfolio%20Images/Mesh_Background_1_kat74n.svg");
 }
 
 main {
@@ -150,9 +150,13 @@ section {
   align-items: center;
   text-decoration: none;
   color: black;
-  background-color: snow;
+  /* background-color: snow; */
+  transition: all .3s;
 }
-
+.socialMediaBox:hover{
+  scale: 1.02;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .socialMediaName {
   font-size: 1.8rem;
   font-family: ParaFont;
@@ -242,6 +246,9 @@ section {
   /* .titleBox, .headingBox {
           margin: 15rem 0;
       } */
+      .title, .headingOfPages {
+        font-size: 6rem;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -303,6 +310,9 @@ section {
   .contactSocialMediaIconsBox a {
     margin: 1rem 1rem;
   }
+  .title, .headingOfPages {
+    font-size: 5rem;
+}
 }
 @media only screen and (max-width: 500px) {
   section {
@@ -370,6 +380,9 @@ section {
 @media only screen and (max-width: 340px) {
   main {
     margin: 0 3rem;
+  }
+  .title {
+    font-size: 3.6rem;
   }
   .navbar {
     padding: 2rem 0rem;
