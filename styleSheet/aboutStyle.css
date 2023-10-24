@@ -130,8 +130,18 @@
     /* background-color: linear-gradient(90deg, rgba(2,90,78,1) 0%, rgba(90,122,116,1) 100%); */
     background: rgb(2,90,78);
 background: linear-gradient(90deg, rgba(2,90,78,1) 0%, rgba(90,122,116,1) 100%);
+transition: progressAnimation ease-in;
 }
 
+@keyframes progressAnimation {
+    0% {
+        width: 0;
+    } 50%{
+        width: 50%;
+    } 100%{
+        width: 100%;
+    }
+}
 /* progress status  */
 
 .progress40{
