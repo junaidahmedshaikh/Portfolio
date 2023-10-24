@@ -188,8 +188,8 @@ section {
   background-color: #d3d4d5;
 }
 
-.footerContainer {
-  height: 20%;
+.footerContent {
+  height: 100%;
   background-color: transparent;
   border-radius: 2rem;
   background: rgba(255, 255, 255, 0.33);
@@ -203,7 +203,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.footerLeftBox {
+.leftContentOfFooter {
   /* border: 2px solid; */
   display: flex;
   align-items: center;
@@ -213,14 +213,14 @@ section {
   color: var(--main-heading-font-color);
 }
 
-.footerRightBox {
+.rightContentOfFooter {
   display: flex;
   justify-content: end;
   padding: 5rem;
 }
-.footerRightBox h1 {
+.leftContentOfFooter h1 {
   color: #025a4e;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 1230px) {
