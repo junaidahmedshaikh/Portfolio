@@ -21,6 +21,7 @@
     max-height: 50vh;
     margin: 1rem ;
     text-decoration: none;
+    box-shadow: var(--box-shadow-for-boxes);
 }
 .cardBox{
     transition: all .4s;
